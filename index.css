@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 80px;
+  background-color: #4b70db;
+}
+
+.box {
+  width: 1500px;
+  height: 880px;
+  margin: auto;
+}
+
+.imagem {
+  width: 600px;
+  height: 880px;
+  background-image: url("Imagem1.png");
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  float: left;
+}
+
+.cadastro {
+  background-color: white;
+  float: left;
+  background-size: cover;
+  height: 880px;
+  width: 900px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 50px;
+  font-size: 30px;
+}
+
+.password {
+  display: flex;
+}
+
+.nomephone {
+  display: flex;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#phone {
+  width: 355px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#nome {
+  width: 350px;
+  margin: 10px;
+  margin-left: 88px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#email {
+  width: 720px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid gray;
+  font-family: "Montserrat", sans-serif;
+}
+
+#senha {
+  width: 350px;
+  margin: 10px;
+  margin-left: 88px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#senha1 {
+  width: 355px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  border-spacing: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.botao input {
+  width: 720px;
+  background-color: #4e73de;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cadastroexterno {
+  margin: 10px;
+  width: 760px;
+  align-self: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+li {
+  list-style-type: none;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.google {
+  background-color: #e94236;
+}
+
+.facebook {
+  background-color: #3a5898;
+}
+
+.google a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.facebook a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-size: 20;
+  color: blue;
+  margin: 10px;
+  text-decoration: none;
+}
